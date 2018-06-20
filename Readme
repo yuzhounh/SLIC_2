@@ -21,7 +21,7 @@ Changes:
 1. Don't discard the eigenvectors corresponding to the trivial eigenvalues 
    (<10^-4) anymore because this step is not necessary. 
 2. Set the error tolerance to 1e-3 and set the maximum iteration number to
-   100. 
+   100 for iterations.
 3. Store usefull information in sInfo.mat.
 
 Related Codes:
