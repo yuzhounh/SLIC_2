@@ -1,0 +1,41 @@
+SLIC: a whole brain parcellation toolbox
+Copyright (C) 2016 Jing Wang
+
+The SLIC toolbox contains five whole brain parcellation approaches that 
+operates on resting-state fMRI data. Three of them are reproduced from the 
+Ncut-based approaches in (Craddock et al., 2012, HBM) and (Shen et al., 
+2013, Neuroimage). The remaining two are the mean SLIC and two-level SLIC 
+approaches, which combine Ncut and SLIC to perform whole brain 
+parcellation. By running this demo, you could reproduce the major results 
+in our paper. See the Readme_plus file for further information. This 
+project is also shared on NITRC, https://www.nitrc.org/projects/slic/. 
+
+Usage:
+1. Download the preprocessed fMRI data from NITRC, and then uncompress
+the data. 
+   https://www.nitrc.org/frs/?group_id=1030
+2. Run main.m to play this demo. It takes about 10 hours on a server with
+   40 CPUs and 256 GB memory. 
+
+Changes:
+1. Don't discard the eigenvectors corresponding to the trivial eigenvalues 
+   (<10^-4) anymore because this step is not necessary. 
+2. Set the error tolerance to 1e-3 and set the maximum iteration number to
+   100. 
+3. Store usefull information in sInfo.mat.
+
+Related Codes:
+SLIC, https://github.com/yuzhounh/SLIC
+SLIC_2, https://github.com/yuzhounh/SLIC_2
+
+Reference:
+Jing Wang, Haixian Wang. A supervoxel-based method for groupwise whole 
+brain parcellation with resting-state fMRI data. Frontiers in Human 
+Neuroscience. DOI: 10.3389/fnhum.2016.00659
+
+Contact information:
+Jing Wang
+wangjing0@seu.edu.cn
+yuzhounh@163.com
+
+2018-6-20 15:11:46
