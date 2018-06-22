@@ -23,7 +23,7 @@ tic;
 load parc_graymatter.mat;
 nM=num_gray;
 
-load sK.mat;
+load sInfo.mat;
 cK=sK(iK);
 
 nPart=2;
@@ -34,7 +34,7 @@ for iPart=1:nPart
     A=A==0;
     A=sparse(double(A));
     
-    load sSub.mat;
+    load sInfo.mat; % reset sSub
     load(sprintf('randset_%d.mat',3-iPart)); % load the other part of subjects
     sSub=sSub(randset(:,iRep));
     nSub=length(sSub);
