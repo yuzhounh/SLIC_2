@@ -42,7 +42,7 @@ for method={'MSC_mean','MSC_twolevel','MKSC','SLIC_mean','SLIC_twolevel'}
 end
 figure;
 imshow(temp);
-imwrite(temp,'parc_illustration.tif', 'resolution',1200);
+% imwrite(temp,'main_illustration.tif', 'resolution',1200);
 
 % scale
 pos=get(gcf,'Position');
