@@ -23,10 +23,8 @@ tic;
 load parc_graymatter.mat;
 nM=num_gray;
 
-load sK.mat;
+load sInfo.mat;
 cK=sK(iK);
-
-load sSub.mat;
 load(sprintf('randset_%d.mat',3-iPart)); % load the other part of subjects
 sSub=sSub(randset(:,iRep));
 nSub=length(sSub);

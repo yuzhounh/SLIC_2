@@ -24,7 +24,7 @@ function parc_normalize(iSub)
 
 tic;
 
-load sSub.mat;
+load sInfo.mat;
 cSub=sSub(iSub);
 
 load parc_graymatter.mat;

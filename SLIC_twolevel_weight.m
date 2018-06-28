@@ -19,9 +19,7 @@ function SLIC_twolevel_weight(iK,iPart,iRep)
 %     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 tic;
-
-load sK.mat;
-load sSub.mat;
+load sInfo.mat;
 load(sprintf('randset_%d.mat',iPart));
 load parc_graymatter.mat;
 

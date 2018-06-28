@@ -20,8 +20,7 @@ function MKSC_parc(iK,iPart,iRep)
 
 tic;
 
-load sK.mat;
-load sSub.mat;
+load sInfo.mat;
 load parc_graymatter.mat;
 load(sprintf('randset_%d.mat',iPart));
 

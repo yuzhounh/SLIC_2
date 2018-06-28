@@ -106,7 +106,7 @@ save('eval.mat','num','sdi','hom','dic','dic_sub');
 
 load eval.mat;
 
-load sK.mat;
+load sInfo.mat;
 sK=sK';
 
 figure;

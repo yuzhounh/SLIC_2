@@ -21,7 +21,7 @@ function mean_weight(iPart,iRep)
 tic;
 
 load parc_graymatter.mat;
-load sSub.mat;
+load sInfo.mat;
 load(sprintf('randset_%d.mat',iPart));
 nM=num_gray;
 sSub=sSub(randset(:,iRep));

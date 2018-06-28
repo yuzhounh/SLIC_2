@@ -20,8 +20,7 @@ function MSC_twolevel_weight(iK,iPart,iRep)
 
 tic;
 
-load sK.mat;
-load sSub.mat;
+load sInfo.mat;
 load(sprintf('randset_%d.mat',iPart));
 load parc_graymatter.mat;
 

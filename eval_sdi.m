@@ -20,9 +20,7 @@ function eval_sdi(method,iK,iPart,iRep)
 
 tic;
 
-load sSub.mat;
-load sK.mat;
-
+load sInfo.mat;
 cK=sK(iK);
 
 load(sprintf('%s_parc/K%d_part%d_rep%d.mat',method,cK,iPart,iRep));

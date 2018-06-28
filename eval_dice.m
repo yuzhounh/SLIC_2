@@ -23,7 +23,7 @@ tic;
 load parc_graymatter.mat;
 nM=num_gray;
 
-load sK.mat;
+load sInfo.mat;
 cK=sK(iK);
 
 iPart=1;

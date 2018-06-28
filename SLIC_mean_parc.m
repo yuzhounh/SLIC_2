@@ -19,8 +19,7 @@ function SLIC_mean_parc(iK,iPart,iRep)
 %     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 tic;
-load sK.mat;
-load sSub.mat;
+load sInfo.mat;
 load parc_graymatter.mat;
 load(sprintf('mean_eigen/part%d_rep%d.mat',iPart,iRep)); % feature matrix
 

@@ -30,7 +30,7 @@ N=sum(cavb(:))-nM; % number of nonzero elements in the weight matrix
 
 k=17; % for opt=3 or 4, keep the largest k values in each row and column
 
-load sSub.mat;
+load sInfo.mat;
 cSub=sSub(iSub);
 load(sprintf('prep/sub%05d.mat',cSub)); % the preprocessed imaging data
 

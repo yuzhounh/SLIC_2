@@ -20,7 +20,7 @@ function MSC_twolevel_eigen(iK,iPart,iRep)
 
 tic;
 
-load sK.mat;
+load sInfo.mat;
 cK=sK(iK);
 
 load(sprintf('MSC_twolevel_weight/K%d_part%d_rep%d.mat',cK,iPart,iRep));

@@ -20,8 +20,7 @@ function sub_eigen(iSub)
 
 tic;
 
-load('parc_graymatter.mat');
-load('sSub.mat');
+load sInfo.mat;
 cSub=sSub(iSub);
 
 load(sprintf('sub_weight/sub%05d.mat',cSub)); % the subject level weight matrix
